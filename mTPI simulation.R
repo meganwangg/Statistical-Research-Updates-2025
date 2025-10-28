@@ -1,14 +1,14 @@
 
 ## This is the R code for performing simulation studies based on the mTPI method (Ji et al, 2009).
 ## The users only need to specify an equivalence interval (pT-epsi1, pT+epsi2)
-## where pT is the target tox probility for the MTD and epsi1 and epsi2 are two small values 
+## where pT is the target tox probability for the MTD and epsi1 and epsi2 are two small values 
 ## so that any dose in the equivalence interval will be considered potential candidates for the true MTD. 
-## The design is then upon specification of D, the number of candidate doses, sampsize, cohort size, starting dose, and simN, the number of simulations.
+## The design is then upon the specification of D, the number of candidate doses, sample size, cohort size, starting dose, and simN, the number of simulations.
 
 ##library(SAGx)
 #system("rm -f simresult.txt")
 
-## The mPTI algorithm and program was developed by Dr. Yuan Ji from MD Anderson Cancer Center in 2009.
+## The mPTI algorithm and program were developed by Dr. Yuan Ji from MD Anderson Cancer Center in 2009.
 ## I modified the code and conducted the simulation study for my research project.
 
 dd.dir <- "Users/Megan Wang/Documents/Research/"  # Working directory
