@@ -9,8 +9,8 @@
 #system("rm -f simresult.txt")
 
 ## The mPTI algorithm and program were developed by Dr. Yuan Ji from MD Anderson Cancer Center in 2009.
-## I modified the code and conducted the simulation study for my research project to compare the mTPI with
-## BOIN, CRM, and 3+3 designs.
+## I modified the simulation parameters and conducted the simulation study for my research project to compare the mTPI with
+## the BOIN, CRM, and 3+3 designs.
 
 dd.dir <- "Users/Megan Wang/Documents/Research/"  # Working directory
 
